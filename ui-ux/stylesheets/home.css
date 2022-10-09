@@ -1,11 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
 #home {
     width: auto;
     height: calc(100vh - 80px);
-    background-color: blue;
-
+    background-image: url(/ui-ux/elements/cfi-hackathon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.7; */
+    /* filter: grayscale(100%);
+     */
+    filter: blur(2px)
 }
 
-#home img {
-    max-width: inherit;
-    height: auto;
+#home div {
+    position: relative;
+    top: 35%;
+    left: 4%;
+    display: flex;
+    flex-direction: column;
 }
+
+.title-text {
+    font-size: 5vw;
+    color: white;
+    border: ;
+    line-height: 10vh;
+}
+
