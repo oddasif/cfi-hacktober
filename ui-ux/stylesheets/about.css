@@ -1,0 +1,58 @@
+#about {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+#about h3 {
+    font-size: 2rem;
+    position: relative;
+    top: 5%;
+    left: 2%;
+}
+
+#about-text {
+    width: 96vw;
+    height: 30vh;
+    position: relative;
+    top: 8%;
+    margin: auto;
+    background-color: black;
+    border-radius: 11px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#about h6 {
+    color: white;
+    font-size: 3vh;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#org {
+    margin: 4rem 0px 1rem 0px;
+}
+
+#cfi-logo {
+    width: 35vw;
+}
+
+#ths-logo {
+    width: 25vw;
+}
+
+#about-imgs {
+    /* padding-left: 1.8rem;
+    padding-top: 2rem; */
+    margin: 2.5vw auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
