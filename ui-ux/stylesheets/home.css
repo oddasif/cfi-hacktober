@@ -3,7 +3,7 @@
 #home {
     width: auto;
     height: calc(100vh - 80px);
-    background-image: url(/ui-ux/elements/cfi-hackathon.jpg);
+    background-image: url("elements/cfi-hackathon.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
